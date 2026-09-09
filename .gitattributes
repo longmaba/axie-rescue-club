@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Preserve upstream font licenses without rewriting their trailing spaces.
+public/fonts/*-OFL.txt whitespace=-blank-at-eol

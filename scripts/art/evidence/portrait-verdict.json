@@ -1,0 +1,8 @@
+{
+  "score": 95,
+  "verdict": "pass",
+  "category_match": true,
+  "differences": [],
+  "suggestions": ["Verify static image URLs in the production crew cards."],
+  "reasoning": "All three transparent portraits show the correct official mascot face with warm lighting and clear margins. Each was inspected individually after correcting bind-pose framing and Kibo edge clipping; alpha coverage and canvas screenshots verify actual model pixels."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "level": "bramblebrook",
+    "before": {
+      "calls": 86,
+      "triangles": 100465,
+      "geometries": 72,
+      "textures": 18
+    },
+    "after": {
+      "calls": 108,
+      "triangles": 115007,
+      "geometries": 86,
+      "textures": 18
+    },
+    "errors": []
+  },
+  {
+    "level": "sunseed-orchard",
+    "before": {
+      "calls": 96,
+      "triangles": 108717,
+      "geometries": 82,
+      "textures": 18
+    },
+    "after": {
+      "calls": 123,
+      "triangles": 137119,
+      "geometries": 101,
+      "textures": 18
+    },
+    "errors": []
+  },
+  {
+    "level": "moonbell-marsh",
+    "before": {
+      "calls": 107,
+      "triangles": 131062,
+      "geometries": 80,
+      "textures": 19
+    },
+    "after": {
+      "calls": 132,
+      "triangles": 146084,
+      "geometries": 97,
+      "textures": 19
+    },
+    "errors": []
+  }
+]

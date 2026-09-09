@@ -1,0 +1,109 @@
+{
+  "repository": "https://github.com/jaatster/axie-3d-assets",
+  "commit": "4eec7d9ccb1d0c962afc110e7be35d44e3d6356b",
+  "models": [
+    {
+      "id": "kibo",
+      "name": "Kibo",
+      "family": "mascot",
+      "familyLabel": "Axie mascots",
+      "path": "mascots/kibo.glb",
+      "equipment": "kibo-hammer",
+      "bytes": 2029496,
+      "sha256": "816d2d3013f1e306f8e1db5285cf89f819b2fa68dd0c00b9218633fe67154214",
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bones": 60,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Hammer.Idle",
+        "Hammer.Walk",
+        "Hammer.Run",
+        "Hammer.Attack",
+        "Hammer.Skill"
+      ],
+      "source": "https://raw.githubusercontent.com/jaatster/axie-3d-assets/4eec7d9ccb1d0c962afc110e7be35d44e3d6356b/assets/mascots/kibo.glb",
+      "localPath": "assets/characters/kibo.glb"
+    },
+    {
+      "id": "pomodoro",
+      "name": "Pomodoro",
+      "family": "mascot",
+      "familyLabel": "Axie mascots",
+      "path": "mascots/pomodoro.glb",
+      "equipment": "pomodoro-staff",
+      "bytes": 1253740,
+      "sha256": "59019cd483f27fc9c5ca94a407d577a0406af36d05c02c32fedc120832ad2601",
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bones": 57,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Dead",
+        "Staff.Idle",
+        "Staff.Walk",
+        "Staff.Run",
+        "Staff.Attack",
+        "Staff.Skill"
+      ],
+      "source": "https://raw.githubusercontent.com/jaatster/axie-3d-assets/4eec7d9ccb1d0c962afc110e7be35d44e3d6356b/assets/mascots/pomodoro.glb",
+      "localPath": "assets/characters/pomodoro.glb"
+    },
+    {
+      "id": "bing",
+      "name": "Bing",
+      "family": "mascot",
+      "familyLabel": "Axie mascots",
+      "path": "mascots/bing.glb",
+      "equipment": "bing-cannon",
+      "bytes": 1585376,
+      "sha256": "69d8b2a6878a8c416bf17ad25ac86c1daa5a38cb03deaf0fd9fb8fd6ef0e4aad",
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bones": 62,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Cannon.Idle",
+        "Cannon.Walk",
+        "Cannon.Run",
+        "Cannon.Attack",
+        "Cannon.Skill"
+      ],
+      "source": "https://raw.githubusercontent.com/jaatster/axie-3d-assets/4eec7d9ccb1d0c962afc110e7be35d44e3d6356b/assets/mascots/bing.glb",
+      "localPath": "assets/characters/bing.glb"
+    },
+    {
+      "id": "sapidae-f-a",
+      "name": "Sapidae F-A",
+      "family": "sapidae",
+      "familyLabel": "Sapidae",
+      "path": "sapidae/sapidae-f-a.glb",
+      "bytes": 4516672,
+      "sha256": "ab94ad740d9db19da610ca8158e01a772bb3da876342c2f67a0cdc7d94b053c4",
+      "meshes": 8,
+      "materials": 8,
+      "textures": 8,
+      "bones": 14,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Run"
+      ],
+      "source": "https://raw.githubusercontent.com/jaatster/axie-3d-assets/4eec7d9ccb1d0c962afc110e7be35d44e3d6356b/assets/sapidae/sapidae-f-a.glb",
+      "localPath": "assets/characters/sapidae-f-a.glb"
+    }
+  ]
+}

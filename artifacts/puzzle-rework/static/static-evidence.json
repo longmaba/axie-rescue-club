@@ -1,0 +1,21 @@
+{
+  "subdirectory": "/rescue-club/",
+  "productionDiagnosticsHidden": true,
+  "levels": [
+    {
+      "id": "sunseed-orchard",
+      "title": "Axie Rescue Club · Sunseed Orchard",
+      "path": "/rescue-club/"
+    },
+    {
+      "id": "moonbell-marsh",
+      "title": "Axie Rescue Club · Moonbell Marsh",
+      "path": "/rescue-club/"
+    }
+  ],
+  "centralColorBuckets": 304,
+  "coloredFraction": 0.7739187418086501,
+  "pageErrors": [],
+  "badResponses": [],
+  "failedAssetRecovery": "passed"
+}

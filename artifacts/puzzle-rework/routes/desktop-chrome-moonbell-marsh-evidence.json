@@ -1,0 +1,183 @@
+{
+  "levelId": "moonbell-marsh",
+  "route": "moonbeam",
+  "talent": "root",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "touch": false,
+  "initialPixels": {
+    "dimensions": {
+      "width": 1280,
+      "height": 720,
+      "displayWidth": 1280,
+      "displayHeight": 720
+    },
+    "centralColorBuckets": 231,
+    "channelRange": 254,
+    "coloredFraction": 0.6893601190476191
+  },
+  "pixels": {
+    "dimensions": {
+      "width": 1280,
+      "height": 720,
+      "displayWidth": 1280,
+      "displayHeight": 720
+    },
+    "centralColorBuckets": 285,
+    "channelRange": 255,
+    "coloredFraction": 0.6620163690476191
+  },
+  "diagnostics": {
+    "calls": 96,
+    "triangles": 96640,
+    "geometries": 92,
+    "textures": 26,
+    "fps": 22.764619572588753,
+    "dpr": 1,
+    "clips": {
+      "kibo": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Hammer.Idle",
+        "Hammer.Walk",
+        "Hammer.Run",
+        "Hammer.Attack",
+        "Hammer.Skill"
+      ],
+      "pomodoro": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Dead",
+        "Staff.Idle",
+        "Staff.Walk",
+        "Staff.Run",
+        "Staff.Attack",
+        "Staff.Skill"
+      ],
+      "bing": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Cannon.Idle",
+        "Cannon.Walk",
+        "Cannon.Run",
+        "Cannon.Attack",
+        "Cannon.Skill"
+      ]
+    },
+    "audio": {
+      "muted": false
+    },
+    "actors": [
+      {
+        "id": "kibo",
+        "position": [
+          4.500000000764654,
+          0,
+          -3
+        ]
+      },
+      {
+        "id": "pomodoro",
+        "position": [
+          3.25,
+          0,
+          -2.713867638262876
+        ]
+      },
+      {
+        "id": "bing",
+        "position": [
+          5,
+          0,
+          -4.1
+        ]
+      },
+      {
+        "id": "traveler",
+        "position": [
+          5,
+          0,
+          -4.1
+        ]
+      }
+    ],
+    "camp": {
+      "keepsakes": 0,
+      "visitor": false,
+      "routes": [],
+      "contributionCounts": {
+        "kibo": 0,
+        "pomodoro": 0,
+        "bing": 0
+      }
+    }
+  },
+  "resources": [],
+  "memory": {
+    "version": 4,
+    "levelId": "moonbell-marsh",
+    "puzzleRevision": 2,
+    "date": "2026-09-08T06:14:32.621Z",
+    "seconds": 48,
+    "keepsakes": 2,
+    "crew": [
+      "Kibo",
+      "Pomodoro",
+      "Bing"
+    ],
+    "route": "moonbeam",
+    "routesUsed": {
+      "bridge": false,
+      "ferry": false
+    },
+    "talent": "root",
+    "contributions": {
+      "kibo": [
+        "Turned Mirror A to backslash.",
+        "Turned Mirror B to slash.",
+        "Turned Mirror B to backslash after anchoring the path.",
+        "Turned Mirror C to slash after anchoring the path."
+      ],
+      "pomodoro": [
+        "Grew the lit root flower into a permanent path."
+      ],
+      "bing": [
+        "Woke the moonwell and its live beam.",
+        "Welcomed the stranded traveler into the club.",
+        "Welcomed everyone home at the camp lantern."
+      ]
+    }
+  },
+  "camp": {
+    "keepsakes": 2,
+    "visitor": true,
+    "routes": [
+      "moonbeam"
+    ],
+    "contributionCounts": {
+      "kibo": 4,
+      "pomodoro": 1,
+      "bing": 3
+    }
+  },
+  "modelResponses": [
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb"
+  ],
+  "errors": []
+}

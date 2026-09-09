@@ -1,0 +1,8 @@
+{
+  "score": 89,
+  "verdict": "revise",
+  "category_match": true,
+  "differences": ["The union of Marsh floor rectangles shows faint internal shadow seams.", "Source bounds inspection shows hedge leaves extending slightly past their blocked cell footprint."],
+  "suggestions": ["Build each terrain layer from exposed union edges and a single tiled top surface, omitting internal vertical faces.", "Trim hedge crowns to remain within the 1.8-unit blocked cells."],
+  "reasoning": "The retracting gates and obstructing willow are corrected. A final geometry pass will align the remaining terrain and hedge details with the authored puzzle boundaries."
+}

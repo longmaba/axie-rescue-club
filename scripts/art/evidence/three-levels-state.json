@@ -1,0 +1,44 @@
+[
+  {
+    "level": "bramblebrook",
+    "supportedAnchors": 8,
+    "bridgeZ": 2.5,
+    "ferryZ": -2.5,
+    "hullSize": [
+      1.7630974911763975,
+      0.6497906553081353,
+      5.01132369041396
+    ],
+    "meshes": 100,
+    "triangles": 97462,
+    "verified": true
+  },
+  {
+    "level": "sunseed-orchard",
+    "supportedAnchors": 10,
+    "bridgeZ": 1.6,
+    "ferryZ": -2.8,
+    "hullSize": [
+      1.7630974911763975,
+      0.6497906553081353,
+      5.01132369041396
+    ],
+    "meshes": 115,
+    "triangles": 119574,
+    "verified": true
+  },
+  {
+    "level": "moonbell-marsh",
+    "supportedAnchors": 10,
+    "bridgeZ": 2.8,
+    "ferryZ": -2.2,
+    "hullSize": [
+      1.7630974911763975,
+      0.6497906553081353,
+      5.01132369041396
+    ],
+    "meshes": 119,
+    "triangles": 128531,
+    "verified": true
+  }
+]

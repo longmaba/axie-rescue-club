@@ -1,0 +1,8 @@
+{
+  "score": 88,
+  "verdict": "revise",
+  "category_match": true,
+  "differences": ["The Orchard exit leaves a post visible below the terrace after retraction.", "One foreground willow overlaps mirror C, and some reeds fall outside the visible pond foundation."],
+  "suggestions": ["Retract barrier height into its footprint and hide fully collapsed barriers.", "Remove the mirror-C foreground tree, move the keepsake-covering willow and clip pond dressing to the authored shoreline."],
+  "reasoning": "The new grid court and optical garden meet the topology requirement and show meaningful puzzle stages, but small occlusion and foundation defects should be corrected before integration."
+}

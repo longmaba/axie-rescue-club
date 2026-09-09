@@ -1,0 +1,20 @@
+[
+  {
+    "level": "sunseed-orchard",
+    "meshes": 84,
+    "sourceTriangles": 70766,
+    "resourcesDisposed": 91,
+    "instanceBuffersDisposed": 0,
+    "checks": "supported anchors; no retired crossing props; physical states and undo; live rules rays; exact resource disposal",
+    "passed": true
+  },
+  {
+    "level": "moonbell-marsh",
+    "meshes": 102,
+    "sourceTriangles": 83505,
+    "resourcesDisposed": 104,
+    "instanceBuffersDisposed": 2,
+    "checks": "supported anchors; no retired crossing props; physical states and undo; live rules rays; exact resource disposal",
+    "passed": true
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "route": "bridge",
+  "talent": "float",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "touch": true,
+  "diagnostics": {
+    "calls": 74,
+    "triangles": 99695,
+    "geometries": 77,
+    "textures": 25,
+    "fps": 23.366231914857323,
+    "dpr": 1,
+    "clips": {
+      "kibo": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Hammer.Idle",
+        "Hammer.Walk",
+        "Hammer.Run",
+        "Hammer.Attack",
+        "Hammer.Skill"
+      ],
+      "pomodoro": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Dead",
+        "Staff.Idle",
+        "Staff.Walk",
+        "Staff.Run",
+        "Staff.Attack",
+        "Staff.Skill"
+      ],
+      "bing": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Cannon.Idle",
+        "Cannon.Walk",
+        "Cannon.Run",
+        "Cannon.Attack",
+        "Cannon.Skill"
+      ]
+    },
+    "audio": {
+      "muted": false
+    },
+    "actors": [
+      {
+        "id": "kibo",
+        "position": [
+          4.6841763686428415,
+          0,
+          -4.0658236313571585
+        ]
+      },
+      {
+        "id": "pomodoro",
+        "position": [
+          6.166922478701021,
+          0,
+          -3.75
+        ]
+      },
+      {
+        "id": "bing",
+        "position": [
+          3.345209675047329,
+          0,
+          -4.551246937202595
+        ]
+      },
+      {
+        "id": "traveler",
+        "position": [
+          7,
+          0,
+          -4
+        ]
+      }
+    ],
+    "camp": {
+      "keepsakes": 0,
+      "visitor": false,
+      "routes": [],
+      "contributionCounts": {
+        "kibo": 0,
+        "pomodoro": 0,
+        "bing": 0
+      }
+    }
+  },
+  "boatEvidence": null,
+  "pixelEvidence": {
+    "dimensions": {
+      "width": 390,
+      "height": 844,
+      "displayWidth": 390,
+      "displayHeight": 844
+    },
+    "centralColorBuckets": 166,
+    "channelRange": 242,
+    "coloredFraction": 0.8191919191919191
+  },
+  "modelResponses": [
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb"
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "memory": {
+    "version": 4,
+    "levelId": "bramblebrook",
+    "puzzleRevision": 1,
+    "date": "2026-09-08T06:25:29.423Z",
+    "seconds": 40,
+    "keepsakes": 2,
+    "crew": [
+      "Kibo",
+      "Pomodoro",
+      "Bing"
+    ],
+    "route": "bridge",
+    "routesUsed": {
+      "bridge": true,
+      "ferry": false
+    },
+    "talent": "float",
+    "contributions": {
+      "kibo": [
+        "Rolled the log across the brook."
+      ],
+      "pomodoro": [
+        "Rooted the log into a steady bridge.",
+        "Opened the garden with a gentle Grow."
+      ],
+      "bing": [
+        "Turned the waterwheel and opened the rescue pen.",
+        "Welcomed the stranded traveler into the club.",
+        "Welcomed everyone home at the camp lantern."
+      ]
+    }
+  },
+  "camp": {
+    "keepsakes": 2,
+    "visitor": true,
+    "routes": [
+      "bridge"
+    ],
+    "contributionCounts": {
+      "kibo": 1,
+      "pomodoro": 2,
+      "bing": 3
+    }
+  }
+}

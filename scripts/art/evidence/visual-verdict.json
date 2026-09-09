@@ -1,0 +1,8 @@
+{
+  "score": 93,
+  "verdict": "pass",
+  "category_match": true,
+  "differences": [],
+  "suggestions": ["Verify the final integrated touch controls and complete both puzzles through real input, including Undo and the required Marsh reroute."],
+  "reasoning": "Orchard is a readable single grid court with physical paired pods, distinct symbols and wet/grown stages; Marsh is an irregular pond garden with visible live ray routing, rotating mirrors and a retained rooted walkway. Terrain seams, mirror occlusion, hedge bounds and retracting-barrier artifacts are corrected, while Bramblebrook keeps its original geometry and full-size ferry."
+}

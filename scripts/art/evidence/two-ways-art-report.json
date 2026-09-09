@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "metrics": {
+    "closed": {
+      "calls": 86,
+      "triangles": 100465,
+      "geometries": 72,
+      "textures": 18
+    },
+    "open": {
+      "calls": 108,
+      "triangles": 115007,
+      "geometries": 86,
+      "textures": 18
+    },
+    "sailing": {
+      "calls": 74,
+      "triangles": 106229,
+      "geometries": 87,
+      "textures": 18
+    },
+    "east": {
+      "calls": 63,
+      "triangles": 88098,
+      "geometries": 87,
+      "textures": 18
+    }
+  }
+}

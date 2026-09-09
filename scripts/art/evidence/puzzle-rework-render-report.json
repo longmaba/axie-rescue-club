@@ -1,0 +1,124 @@
+[
+  {
+    "level": "bramblebrook",
+    "state": "initial",
+    "path": "scripts/art/evidence/rework-bramblebrook-initial.png",
+    "renderer": {
+      "calls": 86,
+      "triangles": 100465,
+      "geometries": 72,
+      "textures": 18
+    }
+  },
+  {
+    "level": "bramblebrook",
+    "state": "built",
+    "path": "scripts/art/evidence/rework-bramblebrook-built.png",
+    "renderer": {
+      "calls": 95,
+      "triangles": 111529,
+      "geometries": 84,
+      "textures": 18
+    }
+  },
+  {
+    "level": "bramblebrook",
+    "errors": []
+  },
+  {
+    "level": "sunseed-orchard",
+    "state": "initial",
+    "path": "scripts/art/evidence/rework-sunseed-orchard-initial.png",
+    "renderer": {
+      "calls": 83,
+      "triangles": 84023,
+      "geometries": 83,
+      "textures": 18
+    }
+  },
+  {
+    "level": "sunseed-orchard",
+    "state": "staging",
+    "path": "scripts/art/evidence/rework-sunseed-orchard-staging.png",
+    "renderer": {
+      "calls": 83,
+      "triangles": 84023,
+      "geometries": 83,
+      "textures": 18
+    }
+  },
+  {
+    "level": "sunseed-orchard",
+    "state": "watered",
+    "path": "scripts/art/evidence/rework-sunseed-orchard-watered.png",
+    "renderer": {
+      "calls": 85,
+      "triangles": 85671,
+      "geometries": 85,
+      "textures": 18
+    }
+  },
+  {
+    "level": "sunseed-orchard",
+    "state": "solved",
+    "path": "scripts/art/evidence/rework-sunseed-orchard-solved.png",
+    "renderer": {
+      "calls": 82,
+      "triangles": 84215,
+      "geometries": 85,
+      "textures": 18
+    }
+  },
+  {
+    "level": "sunseed-orchard",
+    "errors": []
+  },
+  {
+    "level": "moonbell-marsh",
+    "state": "initial",
+    "path": "scripts/art/evidence/rework-moonbell-marsh-initial.png",
+    "renderer": {
+      "calls": 97,
+      "triangles": 95874,
+      "geometries": 85,
+      "textures": 19
+    }
+  },
+  {
+    "level": "moonbell-marsh",
+    "state": "root-lit",
+    "path": "scripts/art/evidence/rework-moonbell-marsh-root-lit.png",
+    "renderer": {
+      "calls": 99,
+      "triangles": 96042,
+      "geometries": 85,
+      "textures": 19
+    }
+  },
+  {
+    "level": "moonbell-marsh",
+    "state": "rerouted",
+    "path": "scripts/art/evidence/rework-moonbell-marsh-rerouted.png",
+    "renderer": {
+      "calls": 104,
+      "triangles": 98578,
+      "geometries": 90,
+      "textures": 19
+    }
+  },
+  {
+    "level": "moonbell-marsh",
+    "state": "solved",
+    "path": "scripts/art/evidence/rework-moonbell-marsh-solved.png",
+    "renderer": {
+      "calls": 100,
+      "triangles": 98110,
+      "geometries": 90,
+      "textures": 19
+    }
+  },
+  {
+    "level": "moonbell-marsh",
+    "errors": []
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "score": 68,
+  "verdict": "revise",
+  "category_match": true,
+  "differences": ["Both added levels retain the same two-bank river and bridge/ferry topology, which the user explicitly rejects."],
+  "suggestions": ["Replace Orchard with a physical seed-pod court and Marsh with an irregular optical-routing garden, preserving only Bramblebrook's existing map."],
+  "reasoning": "The prior screenshots are coherent garden dioramas but do not meet the revised requirement for different spatial puzzles and silhouettes."
+}

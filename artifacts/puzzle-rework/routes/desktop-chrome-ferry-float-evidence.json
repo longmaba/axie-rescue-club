@@ -1,0 +1,356 @@
+{
+  "route": "ferry",
+  "talent": "float",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "touch": false,
+  "diagnostics": {
+    "calls": 84,
+    "triangles": 100863,
+    "geometries": 82,
+    "textures": 25,
+    "fps": 20.138622913552112,
+    "dpr": 1,
+    "clips": {
+      "kibo": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Hammer.Idle",
+        "Hammer.Walk",
+        "Hammer.Run",
+        "Hammer.Attack",
+        "Hammer.Skill"
+      ],
+      "pomodoro": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Dead",
+        "Staff.Idle",
+        "Staff.Walk",
+        "Staff.Run",
+        "Staff.Attack",
+        "Staff.Skill"
+      ],
+      "bing": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Cannon.Idle",
+        "Cannon.Walk",
+        "Cannon.Run",
+        "Cannon.Attack",
+        "Cannon.Skill"
+      ]
+    },
+    "audio": {
+      "muted": false
+    },
+    "actors": [
+      {
+        "id": "kibo",
+        "position": [
+          4.749649824457073,
+          0,
+          -4.5
+        ]
+      },
+      {
+        "id": "pomodoro",
+        "position": [
+          6.054913616742886,
+          0,
+          -3.75
+        ]
+      },
+      {
+        "id": "bing",
+        "position": [
+          3.3499995255267514,
+          0,
+          -4.550000497161328
+        ]
+      },
+      {
+        "id": "traveler",
+        "position": [
+          7,
+          0,
+          -4
+        ]
+      }
+    ],
+    "camp": {
+      "keepsakes": 0,
+      "visitor": false,
+      "routes": [],
+      "contributionCounts": {
+        "kibo": 0,
+        "pomodoro": 0,
+        "bing": 0
+      }
+    }
+  },
+  "boatEvidence": {
+    "state": {
+      "levelId": "bramblebrook",
+      "phase": "playing",
+      "active": "bing",
+      "position": {
+        "x": 0.5365090909090942,
+        "z": -2.5
+      },
+      "logRolled": false,
+      "bridge": false,
+      "bloom": false,
+      "leafGrown": true,
+      "leafLaunched": true,
+      "gate": true,
+      "rescued": true,
+      "orchard": {
+        "pods": [
+          {
+            "column": 2,
+            "row": 1
+          },
+          {
+            "column": 4,
+            "row": 3
+          }
+        ],
+        "watered": [
+          false,
+          false
+        ],
+        "grown": [
+          false,
+          false
+        ],
+        "pushes": 0
+      },
+      "moonbeam": {
+        "powered": false,
+        "mirrors": [
+          0,
+          1,
+          1
+        ],
+        "rooted": false
+      },
+      "navigationRevision": 0,
+      "talent": "float",
+      "ferryProgress": 0.9470909090909118,
+      "ferrySide": "east",
+      "transport": {
+        "from": "east",
+        "to": "west",
+        "phase": "sailing",
+        "progress": 0.05290909090908823,
+        "empty": false
+      },
+      "routesUsed": {
+        "bridge": false,
+        "ferry": true
+      },
+      "returnRoute": null,
+      "contributions": {
+        "kibo": [],
+        "pomodoro": [
+          "Grew a broad leaf ferry.",
+          "Floated the leaf with Watering Can training."
+        ],
+        "bing": [
+          "Carried the club across the brook by leaf ferry.",
+          "Turned the waterwheel and opened the rescue pen.",
+          "Welcomed the stranded traveler into the club."
+        ]
+      },
+      "keepsakes": [
+        false,
+        true,
+        true
+      ],
+      "elapsed": 26.775200000000137,
+      "actions": 5,
+      "message": "All aboard! A bright splash sends the leaf toward the far dock.",
+      "loaded": true,
+      "nearby": null,
+      "objective": "Stay together as the leaf carries you across.",
+      "moonbeamView": {
+        "segments": [],
+        "rootLit": false,
+        "exitLit": false
+      },
+      "canUndoPuzzle": false
+    },
+    "diagnostics": {
+      "calls": 109,
+      "triangles": 101543,
+      "geometries": 82,
+      "textures": 25,
+      "fps": 20.147347123073104,
+      "dpr": 1,
+      "clips": {
+        "kibo": [
+          "Idle",
+          "Walk",
+          "Run",
+          "Greeting",
+          "Dead",
+          "Hammer.Idle",
+          "Hammer.Walk",
+          "Hammer.Run",
+          "Hammer.Attack",
+          "Hammer.Skill"
+        ],
+        "pomodoro": [
+          "Idle",
+          "Walk",
+          "Run",
+          "Dead",
+          "Staff.Idle",
+          "Staff.Walk",
+          "Staff.Run",
+          "Staff.Attack",
+          "Staff.Skill"
+        ],
+        "bing": [
+          "Idle",
+          "Walk",
+          "Run",
+          "Greeting",
+          "Dead",
+          "Cannon.Idle",
+          "Cannon.Walk",
+          "Cannon.Run",
+          "Cannon.Attack",
+          "Cannon.Skill"
+        ]
+      },
+      "audio": {
+        "muted": false
+      },
+      "actors": [
+        {
+          "id": "kibo",
+          "position": [
+            0.4150210354359362,
+            0.26484614211707336,
+            -3.0999999999999996
+          ]
+        },
+        {
+          "id": "pomodoro",
+          "position": [
+            0.6550175134746504,
+            0.2661463455676625,
+            -1.9000000000000001
+          ]
+        },
+        {
+          "id": "bing",
+          "position": [
+            0.5350192744552933,
+            0.2654962438423679,
+            -4.3
+          ]
+        },
+        {
+          "id": "traveler",
+          "position": [
+            0.5350192744552933,
+            0.2654962438423679,
+            -0.7000000000000004
+          ]
+        }
+      ],
+      "camp": {
+        "keepsakes": 0,
+        "visitor": false,
+        "routes": [],
+        "contributionCounts": {
+          "kibo": 0,
+          "pomodoro": 0,
+          "bing": 0
+        }
+      }
+    }
+  },
+  "pixelEvidence": {
+    "dimensions": {
+      "width": 1280,
+      "height": 720,
+      "displayWidth": 1280,
+      "displayHeight": 720
+    },
+    "centralColorBuckets": 294,
+    "channelRange": 251,
+    "coloredFraction": 0.6934523809523809
+  },
+  "modelResponses": [
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb"
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "memory": {
+    "version": 4,
+    "levelId": "bramblebrook",
+    "puzzleRevision": 1,
+    "date": "2026-09-08T06:24:35.112Z",
+    "seconds": 33,
+    "keepsakes": 2,
+    "crew": [
+      "Kibo",
+      "Pomodoro",
+      "Bing"
+    ],
+    "route": "ferry",
+    "routesUsed": {
+      "bridge": false,
+      "ferry": true
+    },
+    "talent": "float",
+    "contributions": {
+      "kibo": [],
+      "pomodoro": [
+        "Grew a broad leaf ferry.",
+        "Floated the leaf with Watering Can training."
+      ],
+      "bing": [
+        "Carried the club across the brook by leaf ferry.",
+        "Turned the waterwheel and opened the rescue pen.",
+        "Welcomed the stranded traveler into the club.",
+        "Brought the traveler home by leaf ferry.",
+        "Welcomed everyone home at the camp lantern."
+      ]
+    }
+  },
+  "camp": {
+    "keepsakes": 2,
+    "visitor": true,
+    "routes": [
+      "ferry"
+    ],
+    "contributionCounts": {
+      "kibo": 0,
+      "pomodoro": 2,
+      "bing": 5
+    }
+  }
+}

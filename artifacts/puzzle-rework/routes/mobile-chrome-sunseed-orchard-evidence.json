@@ -1,0 +1,191 @@
+{
+  "levelId": "sunseed-orchard",
+  "route": "seedbeds",
+  "talent": "float",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "touch": true,
+  "initialPixels": {
+    "dimensions": {
+      "width": 390,
+      "height": 844,
+      "displayWidth": 390,
+      "displayHeight": 844
+    },
+    "centralColorBuckets": 163,
+    "channelRange": 241,
+    "coloredFraction": 0.7328282828282828
+  },
+  "pixels": {
+    "dimensions": {
+      "width": 390,
+      "height": 844,
+      "displayWidth": 390,
+      "displayHeight": 844
+    },
+    "centralColorBuckets": 221,
+    "channelRange": 244,
+    "coloredFraction": 0.6898989898989899
+  },
+  "diagnostics": {
+    "calls": 64,
+    "triangles": 79613,
+    "geometries": 87,
+    "textures": 25,
+    "fps": 26.54754960091998,
+    "dpr": 1,
+    "clips": {
+      "kibo": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Hammer.Idle",
+        "Hammer.Walk",
+        "Hammer.Run",
+        "Hammer.Attack",
+        "Hammer.Skill"
+      ],
+      "pomodoro": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Dead",
+        "Staff.Idle",
+        "Staff.Walk",
+        "Staff.Run",
+        "Staff.Attack",
+        "Staff.Skill"
+      ],
+      "bing": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Cannon.Idle",
+        "Cannon.Walk",
+        "Cannon.Run",
+        "Cannon.Attack",
+        "Cannon.Skill"
+      ]
+    },
+    "audio": {
+      "muted": false
+    },
+    "actors": [
+      {
+        "id": "kibo",
+        "position": [
+          5.5,
+          0,
+          -0.20842359132870902
+        ]
+      },
+      {
+        "id": "pomodoro",
+        "position": [
+          5.5,
+          0,
+          -1.664814198292959
+        ]
+      },
+      {
+        "id": "bing",
+        "position": [
+          5.3994915746626475,
+          0,
+          1.204610593554257
+        ]
+      },
+      {
+        "id": "traveler",
+        "position": [
+          5.5,
+          0,
+          -3.481256902922001
+        ]
+      }
+    ],
+    "camp": {
+      "keepsakes": 0,
+      "visitor": false,
+      "routes": [],
+      "contributionCounts": {
+        "kibo": 0,
+        "pomodoro": 0,
+        "bing": 0
+      }
+    }
+  },
+  "resources": [],
+  "memory": {
+    "version": 4,
+    "levelId": "sunseed-orchard",
+    "puzzleRevision": 2,
+    "date": "2026-09-08T06:22:10.286Z",
+    "seconds": 112,
+    "keepsakes": 2,
+    "crew": [
+      "Kibo",
+      "Pomodoro",
+      "Bing"
+    ],
+    "route": "seedbeds",
+    "routesUsed": {
+      "bridge": false,
+      "ferry": false
+    },
+    "talent": "float",
+    "contributions": {
+      "kibo": [
+        "Pushed the berry pod south to square 3,3.",
+        "Pushed the berry pod south to square 3,4.",
+        "Pushed the berry pod east to square 4,4.",
+        "Pushed the sun pod north to square 5,3.",
+        "Pushed the berry pod east to square 5,4.",
+        "Pushed the berry pod east to square 6,4.",
+        "Pushed the berry pod north to square 6,3.",
+        "Pushed the berry pod north to square 6,2.",
+        "Pushed the sun pod south to square 5,4.",
+        "Pushed the sun pod east to square 6,4."
+      ],
+      "pomodoro": [
+        "Grew the berry plant to lift the orchard trellis.",
+        "Grew the sun plant to lift the orchard trellis."
+      ],
+      "bing": [
+        "Watered the berry pod in its matching bed.",
+        "Watered the sun pod in its matching bed.",
+        "Welcomed the stranded traveler into the club.",
+        "Welcomed everyone home at the camp lantern."
+      ]
+    }
+  },
+  "camp": {
+    "keepsakes": 2,
+    "visitor": true,
+    "routes": [
+      "seedbeds"
+    ],
+    "contributionCounts": {
+      "kibo": 10,
+      "pomodoro": 2,
+      "bing": 4
+    }
+  },
+  "modelResponses": [
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb"
+  ],
+  "errors": []
+}

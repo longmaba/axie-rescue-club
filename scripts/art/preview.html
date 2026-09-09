@@ -1,0 +1,65 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Island art inspection</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#eaf0df}canvas{display:block}</style></head>
+<body><script type="module">
+import * as THREE from '/node_modules/three/build/three.module.js';
+import { GLTFLoader } from '/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import { createIsland } from '/src/art/island.ts';
+import { LEVELS } from '/src/game/levels.ts';
+const level=LEVELS.find(l=>l.id===new URLSearchParams(location.search).get('level'))??LEVELS[0];
+const marsh=level.theme==='marsh';
+const scene = new THREE.Scene();
+scene.background = new THREE.Color('#eaf0df');
+const renderer = new THREE.WebGLRenderer({antialias:true, preserveDrawingBuffer:true});
+renderer.setPixelRatio(1.25);
+renderer.setSize(innerWidth,innerHeight);
+renderer.shadowMap.enabled=true;
+renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure=1.15;
+document.body.append(renderer.domElement);
+const camera = new THREE.OrthographicCamera(-9*innerWidth/innerHeight,9*innerWidth/innerHeight,9,-9,0.1,100);
+camera.position.set(16,23,22);camera.lookAt(0,0,0);
+scene.add(new THREE.HemisphereLight(marsh?'#ccd7ef':'#fff7e3',marsh?'#466974':'#91aa97',marsh?1.8:2.4));
+const sun = new THREE.DirectionalLight(marsh?'#c0cafa':'#fff2da',marsh?2:3.4);
+sun.position.set(-6,18,8);sun.castShadow=true;
+sun.shadow.mapSize.set(2048,2048);
+Object.assign(sun.shadow.camera,{left:-14,right:14,top:14,bottom:-14,near:0.5,far:50});
+sun.shadow.normalBias=0.06;scene.add(sun);
+scene.add(new THREE.DirectionalLight('#d3e9fc',0.6));
+const ground=new THREE.Mesh(new THREE.PlaneGeometry(200,200),new THREE.MeshStandardMaterial({color:'#eaf0df',roughness:1}));
+ground.rotation.x=-Math.PI/2;ground.position.y=-2.1;ground.receiveShadow=true;scene.add(ground);
+const art=createIsland(level);scene.add(art.root);
+const loader=new GLTFLoader();const mixers=[];const actors=[];
+await Promise.all([
+ ['kibo',-5.5,2.3,1.65],['pomodoro',-7,1.9,1.65],['bing',-6.1,.6,1.65],['sapidae-f-a',level.targets.traveler.x,level.targets.traveler.z,1.65]
+].map(async([id,x,z,height])=>{
+ const gltf=await loader.loadAsync('/assets/characters/'+id+'.glb');
+ const bounds=new THREE.Box3().setFromObject(gltf.scene);const size=bounds.getSize(new THREE.Vector3());
+ const holder=new THREE.Group();const model=gltf.scene;model.scale.setScalar(height/size.y);
+ const center=bounds.getCenter(new THREE.Vector3());model.position.set(-center.x*model.scale.x,-bounds.min.y*model.scale.x,-center.z*model.scale.x);model.rotation.y=Math.PI/4;holder.position.set(x,0,z);holder.add(model);scene.add(holder);
+ holder.userData.home=[x,0,z];actors.push({id,holder,model});
+ model.traverse(o=>{if(o.isMesh){o.castShadow=true;o.receiveShadow=true;}});
+ const mixer=new THREE.AnimationMixer(model);const clip=gltf.animations.find(a=>a.name==='Idle');if(clip)mixer.clipAction(clip).play();mixers.push(mixer);
+}));
+const state={logRolled:false,bridge:false,bloom:false,leafGrown:false,leafLaunched:false,ferryProgress:0,ferrySide:'west',transport:null,talent:'root',gate:false,rescued:false,keepsakes:[],campKeepsakes:0,campVisitor:false,orchard:{pods:[{column:2,row:1},{column:4,row:3}],watered:[false,false],grown:[false,false],pushes:0},moonbeam:{powered:false,mirrors:[0,1,1],rooted:false},moonbeamView:{segments:[],rootLit:false,exitLit:false}};
+window.setArtState=(next)=>Object.assign(state,next);
+window.setArtCamera=(focus)=>{
+ const h=focus==='ferry'?3.5:9;
+ camera.left=-h*innerWidth/innerHeight;camera.right=h*innerWidth/innerHeight;camera.top=h;camera.bottom=-h;
+ camera.position.set(...(focus==='ferry'?[6,10,8]:[16,23,22]));camera.lookAt(...(focus==='ferry'?[0,.2,level.ferryCenters.west.z]:[0,0,0]));camera.updateProjectionMatrix();
+};
+const clock=new THREE.Clock();
+function tick(){
+ const dt=Math.min(clock.getDelta(),0.1);const t=clock.elapsedTime;art.update(dt,t,state);mixers.forEach(m=>m.update(dt));
+ art.root.updateMatrixWorld(true);
+ ['kibo','pomodoro','bing','sapidae-f-a'].forEach((id,i)=>{
+   const {holder:actor,model}=actors.find(a=>a.id===id);
+   if(state.transport&&!state.transport.empty){art.interactables['ferrySeat'+i].getWorldPosition(actor.position);model.rotation.y=0;actor.rotation.y=state.transport.to==='east'?Math.PI/2:-Math.PI/2}
+   else{actor.position.set(...actor.userData.home);actor.rotation.y=0;model.rotation.y=Math.PI/4}
+ });
+ renderer.render(scene,camera);window.artInfo={calls:renderer.info.render.calls,triangles:renderer.info.render.triangles,geometries:renderer.info.memory.geometries,textures:renderer.info.memory.textures};requestAnimationFrame(tick)
+}tick();
+window.artReady=true;
+</script></body></html>

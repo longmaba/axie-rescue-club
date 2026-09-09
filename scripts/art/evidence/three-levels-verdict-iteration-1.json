@@ -1,0 +1,8 @@
+{
+  "score": 88,
+  "verdict": "revise",
+  "category_match": true,
+  "differences": ["The reflector's ripple animation replaces its authored thin-disc Y scale, making the pool surface appear as a raised pillar."],
+  "suggestions": ["Preserve the reflector disc's 0.025 base Y scale when applying the ripple, then recapture the partial and completed Marsh states."],
+  "reasoning": "The orchard irrigation and marsh signal stages are distinct and readable in the diorama, but the reflector surface does not match the intended shallow-pool construction. Bramblebrook and full-size ferry proportions remain preserved."
+}

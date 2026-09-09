@@ -1,0 +1,42 @@
+node_modules/
+dist/
+test-results*/
+playwright-report/
+
+# Local agent state and private working files
+.omx/
+.beads/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Keep only the curated, current gameplay evidence in source control.
+# Raw browser traces and unrelated upload archives stay local.
+artifacts/*
+!artifacts/puzzle-rework/
+artifacts/puzzle-rework/*
+!artifacts/puzzle-rework/routes/
+!artifacts/puzzle-rework/production/
+!artifacts/puzzle-rework/static/
+!artifacts/puzzle-rework/capture-ui.mjs
+!artifacts/puzzle-rework/candidate.json
+!artifacts/puzzle-rework/asset-integrity.json
+!artifacts/puzzle-rework/packaged-asset-integrity.json
+!artifacts/puzzle-rework/integrated-visual-verdict.json
+artifacts/puzzle-rework/routes/*
+!artifacts/puzzle-rework/routes/*.png
+!artifacts/puzzle-rework/routes/*.json
+artifacts/puzzle-rework/production/*
+!artifacts/puzzle-rework/production/*.png
+!artifacts/puzzle-rework/production/*.json
+artifacts/puzzle-rework/static/*
+!artifacts/puzzle-rework/static/*.png
+!artifacts/puzzle-rework/static/*.json
+*.log
+.DS_Store
+
+# bv (beads viewer) local config and caches
+.bv/

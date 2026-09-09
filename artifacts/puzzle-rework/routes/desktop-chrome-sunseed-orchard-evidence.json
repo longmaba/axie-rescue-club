@@ -1,0 +1,222 @@
+{
+  "levelId": "sunseed-orchard",
+  "route": "seedbeds",
+  "talent": "root",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "touch": false,
+  "initialPixels": {
+    "dimensions": {
+      "width": 1280,
+      "height": 720,
+      "displayWidth": 1280,
+      "displayHeight": 720
+    },
+    "centralColorBuckets": 205,
+    "channelRange": 222,
+    "coloredFraction": 0.5513392857142857
+  },
+  "pixels": {
+    "dimensions": {
+      "width": 1280,
+      "height": 720,
+      "displayWidth": 1280,
+      "displayHeight": 720
+    },
+    "centralColorBuckets": 212,
+    "channelRange": 249,
+    "coloredFraction": 0.6387648809523809
+  },
+  "diagnostics": {
+    "calls": 78,
+    "triangles": 82745,
+    "geometries": 87,
+    "textures": 25,
+    "fps": 20.235398799434495,
+    "dpr": 1,
+    "clips": {
+      "kibo": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Hammer.Idle",
+        "Hammer.Walk",
+        "Hammer.Run",
+        "Hammer.Attack",
+        "Hammer.Skill"
+      ],
+      "pomodoro": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Dead",
+        "Staff.Idle",
+        "Staff.Walk",
+        "Staff.Run",
+        "Staff.Attack",
+        "Staff.Skill"
+      ],
+      "bing": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Greeting",
+        "Dead",
+        "Cannon.Idle",
+        "Cannon.Walk",
+        "Cannon.Run",
+        "Cannon.Attack",
+        "Cannon.Skill"
+      ]
+    },
+    "audio": {
+      "muted": false
+    },
+    "actors": [
+      {
+        "id": "kibo",
+        "position": [
+          7.068296381369525,
+          0,
+          -4.5
+        ]
+      },
+      {
+        "id": "pomodoro",
+        "position": [
+          5.75418280584169,
+          0,
+          -3.733742566417063
+        ]
+      },
+      {
+        "id": "bing",
+        "position": [
+          7.5,
+          0,
+          -3.8
+        ]
+      },
+      {
+        "id": "traveler",
+        "position": [
+          7.5,
+          0,
+          -3.8
+        ]
+      }
+    ],
+    "camp": {
+      "keepsakes": 0,
+      "visitor": false,
+      "routes": [],
+      "contributionCounts": {
+        "kibo": 0,
+        "pomodoro": 0,
+        "bing": 0
+      }
+    }
+  },
+  "resources": [
+    {
+      "levelId": "moonbell-marsh",
+      "geometries": 86,
+      "textures": 26
+    },
+    {
+      "levelId": "bramblebrook",
+      "geometries": 74,
+      "textures": 25
+    },
+    {
+      "levelId": "sunseed-orchard",
+      "geometries": 84,
+      "textures": 25
+    },
+    {
+      "levelId": "moonbell-marsh",
+      "geometries": 86,
+      "textures": 26
+    },
+    {
+      "levelId": "bramblebrook",
+      "geometries": 74,
+      "textures": 25
+    },
+    {
+      "levelId": "sunseed-orchard",
+      "geometries": 84,
+      "textures": 25
+    }
+  ],
+  "memory": {
+    "version": 4,
+    "levelId": "sunseed-orchard",
+    "puzzleRevision": 2,
+    "date": "2026-09-08T06:13:14.980Z",
+    "seconds": 88,
+    "keepsakes": 2,
+    "crew": [
+      "Kibo",
+      "Pomodoro",
+      "Bing"
+    ],
+    "route": "seedbeds",
+    "routesUsed": {
+      "bridge": false,
+      "ferry": false
+    },
+    "talent": "root",
+    "contributions": {
+      "kibo": [
+        "Pushed the berry pod south to square 3,3.",
+        "Pushed the berry pod south to square 3,4.",
+        "Pushed the berry pod east to square 4,4.",
+        "Pushed the sun pod north to square 5,3.",
+        "Pushed the berry pod east to square 5,4.",
+        "Pushed the berry pod east to square 6,4.",
+        "Pushed the berry pod north to square 6,3.",
+        "Pushed the berry pod north to square 6,2.",
+        "Pushed the sun pod south to square 5,4.",
+        "Pushed the sun pod east to square 6,4."
+      ],
+      "pomodoro": [
+        "Grew the berry plant to lift the orchard trellis.",
+        "Grew the sun plant to lift the orchard trellis."
+      ],
+      "bing": [
+        "Watered the berry pod in its matching bed.",
+        "Watered the sun pod in its matching bed.",
+        "Welcomed the stranded traveler into the club.",
+        "Welcomed everyone home at the camp lantern."
+      ]
+    }
+  },
+  "camp": {
+    "keepsakes": 2,
+    "visitor": true,
+    "routes": [
+      "seedbeds"
+    ],
+    "contributionCounts": {
+      "kibo": 10,
+      "pomodoro": 2,
+      "bing": 4
+    }
+  },
+  "modelResponses": [
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb",
+    "http://127.0.0.1:4191/assets/characters/kibo.glb",
+    "http://127.0.0.1:4191/assets/characters/pomodoro.glb",
+    "http://127.0.0.1:4191/assets/characters/bing.glb",
+    "http://127.0.0.1:4191/assets/characters/sapidae-f-a.glb"
+  ],
+  "errors": []
+}

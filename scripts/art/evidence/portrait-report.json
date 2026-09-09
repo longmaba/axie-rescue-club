@@ -1,0 +1,71 @@
+{
+  "method": "Playwright canvas screenshot; omitBackground=true; stable rendered Idle pose",
+  "portraits": [
+    {
+      "id": "kibo",
+      "path": "public/assets/characters/kibo-portrait.png",
+      "bytes": 74744,
+      "width": 384,
+      "height": 384,
+      "nontransparentPixels": 55361,
+      "alphaBounds": {
+        "minX": 20,
+        "minY": 49,
+        "maxX": 332,
+        "maxY": 342
+      },
+      "sha256": "12bceb80ad11d13d910fb404b4e8f230e3e2bb7311c07d8b07c429385aa0c597",
+      "renderer": {
+        "id": "kibo",
+        "frames": 19,
+        "calls": 1,
+        "triangles": 5305
+      },
+      "errors": []
+    },
+    {
+      "id": "pomodoro",
+      "path": "public/assets/characters/pomodoro-portrait.png",
+      "bytes": 73475,
+      "width": 384,
+      "height": 384,
+      "nontransparentPixels": 57688,
+      "alphaBounds": {
+        "minX": 56,
+        "minY": 47,
+        "maxX": 315,
+        "maxY": 354
+      },
+      "sha256": "a899fae3c9b5166df07bfe84aa3ebc1fdc9d45beb50431e17b83114b2a53ead8",
+      "renderer": {
+        "id": "pomodoro",
+        "frames": 19,
+        "calls": 1,
+        "triangles": 4478
+      },
+      "errors": []
+    },
+    {
+      "id": "bing",
+      "path": "public/assets/characters/bing-portrait.png",
+      "bytes": 54427,
+      "width": 384,
+      "height": 384,
+      "nontransparentPixels": 43771,
+      "alphaBounds": {
+        "minX": 77,
+        "minY": 46,
+        "maxX": 306,
+        "maxY": 340
+      },
+      "sha256": "8b92d7262bdc332452d6634891b17dd9616306c1afe51492495b720a7e1f6baa",
+      "renderer": {
+        "id": "bing",
+        "frames": 18,
+        "calls": 1,
+        "triangles": 3264
+      },
+      "errors": []
+    }
+  ]
+}

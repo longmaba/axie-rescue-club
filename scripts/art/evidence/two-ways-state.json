@@ -1,0 +1,61 @@
+{
+  "boatSize": [
+    1.7620959927293849,
+    0.6454828693881776,
+    5.011323690414425
+  ],
+  "seatOffsets": [
+    [
+      0,
+      0.275,
+      -1.8
+    ],
+    [
+      -0.12,
+      0.275,
+      -0.6
+    ],
+    [
+      0.12,
+      0.275,
+      0.6
+    ],
+    [
+      0,
+      0.275,
+      1.8
+    ]
+  ],
+  "keepsakes": [
+    {
+      "name": "flower-keepsake",
+      "x": 7,
+      "z": 1.2,
+      "height": 0.7393657757072557
+    },
+    {
+      "name": "sun-shell-keepsake",
+      "x": 0,
+      "z": -2.5,
+      "height": 1.0684244966880607
+    },
+    {
+      "name": "camp-bell-keepsake",
+      "x": 3,
+      "z": -4.4,
+      "height": 0.5835601893859247
+    }
+  ],
+  "geometry": {
+    "meshes": 100,
+    "triangles": 97462
+  },
+  "passed": [
+    "independent push/root states",
+    "grown/launch/midstream/east positions",
+    "four full-size seat offsets",
+    "hull bounds",
+    "keepsake order/height",
+    "camp memories preserved on construction reset"
+  ]
+}
